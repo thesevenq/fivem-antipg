@@ -1,3 +1,4 @@
+-- thesevenq K A S T M skripter lol
 local vehicle = nil
 local isDriver = false
 local fTractionLossMult = nil
@@ -170,3 +171,4 @@ function pointingRoad(veh)
     end
     return false
 end
+-- thesevenq K A S T M skripter lol

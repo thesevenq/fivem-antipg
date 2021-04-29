@@ -1,4 +1,5 @@
 fx_version 'bodacious'
+description 'by thesevenq'
 
 game 'gta5'
 

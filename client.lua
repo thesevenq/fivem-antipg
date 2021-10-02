@@ -54,7 +54,7 @@ local blackListed = {
 
 Citizen.CreateThread(function()
     while true do 
-        local ped = GetPlayerPed(-1)      
+        local ped = PlayerPedId()
         if IsPedInAnyVehicle(ped, false) then
             if vehicle == nil then
                 vehicle = GetVehiclePedIsUsing(ped)
